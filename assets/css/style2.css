@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	background-color: #000000;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+}
+header#head{
+	background-color: orange;
+	width: 100%;
+	height: 100px;
+}
+
+header#head > div{
+	float: left;
+	line-height: 10vh;
+	width: 30%;
+	height: 100%;
+	padding-left: 15px;
+}
+header#head > div#headTitle > a {
+	text-decoration: none;
+}
+
+header#head > nav{
+	float: right;
+	height: 100%;
+}
+
+header#head > nav:last-child > ul{
+	float: right;
+	height: 100%;
+}
+header#head > nav:last-child > ul > li{
+	list-style: none;
+	display: inline-block;
+	width: 100px;
+	height: 100%;
+}
+
+header#head > nav > ul > li > a{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	line-height: 10vh;
+	width: 100%;
+	height: 100%;
+}
+header#head > nav > ul > li > a:hover{
+	background-color: grey;
+	color: white;
+	opacity: .8;
+}
+main#wrapper{
+	width: 80%;
+	margin: 0 auto;
+	min-height: 100vh;
+	background-color: #e6e6e6; 
+}
+main#wrapper > img{
+	margin: 0 auto;
+	width: 95%;
+	height: 500px;
+	display: block;
+	border-radius: 10px;
+}
+main#wrapper > h1{
+	text-align: center;
+	text-decoration: uppercase;
+	padding-top:15px; 
+}
+
+main#wrapper > ul {
+	width: 100%;
+	text-align: center;
+}
+main#wrapper > ul > li {
+	display: inline-block;
+}
+main#wrapper > ul > li > a{
+	display: inline-block;
+	line-height: 8vh;
+	text-decoration: none;
+	padding: 0px 15px 0px 15px;
+	margin:5px 5px 15px 5px;
+}
+main#wrapper > ul > li > a:hover{
+	background-color: grey;
+	color: white;
+	opacity: .8;
+}
+footer#footer{
+	width: 100%;
+	background-color: orange;
+	min-height: 5vh;
+	padding: 15px;
+	text-align: center;
+}
